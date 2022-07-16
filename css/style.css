@@ -10,13 +10,12 @@ body {
 	flex-wrap: wrap;
 	padding: 1em;
 	gap: 1em;
+	
 }
 .card__item {
 	border: 1px solid rgb(8, 1, 1);
-	/* flex: 0 1 auto; */
-	/* width: 33.33%; */
-	/* margin: 0.5em; */
-	width: calc(100% / 3 - 11px);
+	flex-basis: 30%;
+	flex-grow: 1;
 }
 .card__image {
 	border: 1px solid rgb(8, 1, 1);
